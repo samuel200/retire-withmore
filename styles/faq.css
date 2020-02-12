@@ -1,0 +1,43 @@
+#faq{
+    margin: 70px auto;
+}
+
+#faq ul{
+    padding: 0px;
+    border: none;
+}
+
+#faq li{
+    margin-bottom: 20px;
+}
+
+#faq li div.collapsible-header{
+    background: rgb(200, 200, 200);
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    padding: 25px;
+    transition: background .5s;
+}
+
+#faq li.active .collapsible-header{
+    background: #27B4EA;
+    color: white;
+}
+
+@keyframes rotateClockwise {
+    from{
+        transfrom: rotateZ(0);
+    }
+    to{
+        transfrom: rotateZ(90);
+    }
+}
+
+@keyframes rotateAntiClockwise {
+    from{
+        transfrom: rotateZ(90);
+    }
+    to{
+        transfrom: rotateZ(0);
+    }
+}

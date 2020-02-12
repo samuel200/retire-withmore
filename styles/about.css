@@ -1,0 +1,24 @@
+#about{
+    padding: 70px 0px;
+}
+
+.container{
+    width: 90% !important;
+    font-family: roboto;
+}
+
+h2{
+    font-family: raleway;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h2 span{
+    color: #00BAF7;
+}
+
+div.center-align img{
+    transform: scaleX(.8);
+    position: relative;
+    bottom: 25px;
+}

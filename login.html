@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- get the required files from 3rd party sources -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="icon" href="img/favicon.png" sizes="32x32" />
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/auth.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Login | Retire With More Investment</title>
+</head>
+
+<body>
+    <div class="preloader-background" style="background-image: url(img/new.jpg);">
+        <!-- <div class="preloader-wrapper big active"> -->
+            <div class="container" style="width: 30% !important">
+                <div class="progress">
+                    <div class="indeterminate"></div>
+                </div>
+            </div>
+        <!-- </div> -->
+      </div>
+    <a href="index.html" id="back-button">Back To Home</a>
+    <div id="form-wrapper" class="row">
+        <div class="col l4 offset-l4 m8 offset-m2 s10 offset-s1">
+            <div id="heading">
+                <i class="material-icons large blue-text">lock_open</i>
+                <div>
+                    <h5>Login</h5>
+                    <p>Please enter your credentials to login.</p>
+                </div>
+            </div>
+            <div>
+                <form action="" id="form-holder">
+                    <label for=email>Email</label>
+                    <input type="email" id="email" placeholder="Email Address">
+                    <sub>Your email address</sub>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="*******">
+                    <div>
+                        <span><input type="checkbox" name="remember" value="remember">Remember me</span>
+                        <a href="forgot.html" class="right">Forgot password?</a>
+                    </div>
+                    <div>
+                        <input type="submit" value="Login" class="auth-icons">
+                        <a href="register.html" class="auth-icons">Register</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+      
+    document.addEventListener("DOMContentLoaded", function(){
+      $('.preloader-background').delay(1700).fadeOut('slow');
+      
+      $('.preloader-wrapper')
+        .delay(1700)
+        .fadeOut();
+    });
+  </script>
+</body>
+</html>

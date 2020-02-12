@@ -1,0 +1,65 @@
+.step{
+    background: #282E3F;
+    color: white;
+    padding: 40px 20px;
+    margin-left: 6.5% !important;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    font-family: raleway;
+}
+
+.step img{
+    width: 64px;
+    height: 64px;
+}
+
+.step div:nth-of-type(2){
+    font-size: 2em;
+    /* font-weight: bold; */
+}
+
+.pricing{ 
+    color: white;
+    height: 450px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.pricing h2{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.pricing-sub{
+    color: white;
+    background: #00BAF7;
+    border-radius: 5px;
+    padding: 15px 30px;
+    position: relative;
+    top: 25px;
+    transition: background .5s, color .5s;
+}
+
+.pricing-sub:hover{
+    color: #00BAF7;
+    border: 2px solid #00BAF7;
+    background: transparent;
+}
+
+#pricing-1{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.666), rgba(0, 0, 0, 0.75)), url('../img/crypto.png') no-repeat;
+}
+
+#pricing-2{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.666), rgba(0, 0, 0, 0.75)), url('../img/5year.png') no-repeat;
+}
+
+#pricing-3{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.666), rgba(0, 0, 0, 0.75)), url('../img/20year.png') no-repeat;
+}
+#pricing-4{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.666), rgba(0, 0, 0, 0.75)), url('../img/real.png') no-repeat;
+}

@@ -1,0 +1,36 @@
+body{
+    font-family: roboto;
+}
+
+h2, h3, h4{
+    font-family: raleway;
+    font-weight: bold !important;
+}
+
+h2{
+    font-size: 32px !important;
+}
+
+h4{
+    font-size: 24px !important;
+}
+
+div.container p{
+    color: rgb(54, 54, 54) !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+}
+
+#services{
+    margin: 80px auto;
+}
+
+#services>h2{
+    color: #00BAF7;
+}
+
+#services>div>img{
+    position: relative;
+    bottom: 20px;
+    transform: scaleX(.7);
+}
